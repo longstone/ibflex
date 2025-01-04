@@ -151,6 +151,7 @@ class OpenClose(enum.Enum):
 @enum.unique
 class OrderType(enum.Enum):
     LIMIT = "LMT"
+    LIMITIFTOUCHED = "LIT"
     MARKET = "MKT"
     MARKETONCLOSE = "MOC"
 
